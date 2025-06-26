@@ -18,6 +18,7 @@ export const Todo = () => {
     const newTodos = [...incompleteTodos, todoText];
     setIncompleteTodos(newTodos);
     setTodoText('');
+    
   };
 
   const onClickDelete = (index) => {
